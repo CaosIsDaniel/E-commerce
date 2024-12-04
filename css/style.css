@@ -17,6 +17,7 @@ body{
 header{
 	display: flex;
 	background-color: blueviolet;
+	align-items: center;
 }
 
 .titulo_home{
@@ -24,11 +25,27 @@ header{
 }
 
 .nav_home{
-
+	background-color: brown;
+	width: 100%;
+	text-align: center;
 }
 
-.catalogo_home
+.home{
+	background-color: green;
+	display: flex;
+}
 
+
+
+.cont1_home{
+	width: 50%;
+	background-color: yellow;
+}
+
+.cont2_home{
+	width: 50%;
+	background-color: tomato;
+}
 /* Catologo */
 
 .parent {
@@ -37,7 +54,14 @@ header{
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
 }
-    
+
+.div2, .div3, .div4, .div5, .div6, .div7{
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	
+}
+
 .div1 {
     grid-row: span 2 / span 2;
 }
@@ -58,6 +82,10 @@ header{
 }
 
 /* Footer */
+
+footer{
+	background-color: #a3a3a3;
+}
 
 .icon_redes{
 	width: 45px;
