@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 html{
 	scroll-behavior: smooth;
@@ -90,7 +89,7 @@ footer{
 
 .icon_redes{
 	width: 45px;
-=======
+}
 body {
     margin: 0;
     padding: 0;
@@ -250,5 +249,4 @@ footer {
 .icon_redes {
     width: 45px;
     margin: 0 10px;
->>>>>>> 973114e (tercer commit)
 }
