@@ -1,0 +1,64 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+    scrollbar-width: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*  Home */
+
+header{
+	display: flex;
+	background-color: blueviolet;
+}
+
+.titulo_home{
+	background-color: aquamarine;
+}
+
+.nav_home{
+
+}
+
+.catalogo_home
+
+/* Catologo */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-row: span 2 / span 2;
+}
+
+.div5 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+/* Footer */
+
+.icon_redes{
+	width: 45px;
+}
