@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html{
 	scroll-behavior: smooth;
@@ -89,4 +90,165 @@ footer{
 
 .icon_redes{
 	width: 45px;
+=======
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del header */
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo_home h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.nav_home {
+    display: flex;
+    gap: 15px;
+}
+
+.nav_home a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav_home a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Barra de Filtros */
+.filters {
+    width: 20%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: 30px; /* Aumentamos el margen izquierdo */
+    margin-right: 20px; 
+    float: left;
+}
+
+
+.filters h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.filter-category h3,
+.filter-search h3 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+ul li input {
+    margin-right: 10px;
+}
+
+.filter-search input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Catálogo de Productos */
+.catalogo-title {
+    text-align: center;
+    margin: 0; /* Quitar margen extra */
+    padding-bottom: 5px; /* Espaciado controlado debajo */
+    font-size: 26px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los productos horizontalmente */
+    margin: 0; /* Quita márgenes que puedan causar espacio */
+    padding: 0; /* Asegura que no haya espacio adicional */
+}
+
+.product {
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+/* Hover en productos */
+.product:hover {
+    transform: scale(1.05);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor principal ocupe toda la pantalla */
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #a3a3a3;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}
+
+.icon_redes {
+    width: 45px;
+    margin: 0 10px;
+>>>>>>> 973114e (tercer commit)
 }
