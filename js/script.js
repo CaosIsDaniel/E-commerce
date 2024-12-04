@@ -1,3 +1,4 @@
+// Función para aplicar los filtros
 function applyFilters() {
     const searchText = document.getElementById('search-input').value.toLowerCase();
     const checkboxes = document.querySelectorAll('.filter-checkbox');
